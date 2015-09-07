@@ -1,0 +1,33 @@
+{
+  "name": "markupeditor",
+  "version": "1.0.0",
+  "description": "Interavtive markup editor for users",
+  "main": "server.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sifxtreme/realtime-markdown.git"
+  },
+  "keywords": [
+    "markup",
+    "realtime"
+  ],
+  "author": "Ajay Kulkarni",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "redis": "^0.10.3",
+    "share": "0.6.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sifxtreme/realtime-markdown/issues"
+  },
+  "homepage": "https://github.com/sifxtreme/realtime-markdown#readme"
+}
